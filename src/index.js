@@ -8,3 +8,5 @@ app.listen(puerto, async () => {
     console.log(`Servidor iniciado en: http://localhost:${puerto}/`);
     await getConnection();
 });
+
+// indexedDB.js
